@@ -33,7 +33,7 @@ const eslintConfig = [
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/ban-types': 'off'
     },
-    ignorePatterns: ['.storybook/', '.jest/']
+    ignorePatterns: ['.storybook/', '.jest/', 'generators/']
   })
 ]
 export default eslintConfig
