@@ -10,7 +10,7 @@
     "test:ci": "jest --runInBand",
     "generate": "npx plop --plopfile generators/plopfile.js",
     "start": "next start",
-    "lint": "next lint .",
+    "lint": "next lint",
     "prepare": "husky",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
