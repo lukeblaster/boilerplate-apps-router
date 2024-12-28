@@ -32,8 +32,7 @@ const eslintConfig = [
       '@typescript-eslint/explicit-module-boundary-types': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/ban-types': 'off'
-    },
-    ignorePatterns: ['.storybook/', '.jest/', 'generators/']
+    }
   })
 ]
 export default eslintConfig
